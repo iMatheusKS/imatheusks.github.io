@@ -4,68 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matheus | Portfólio</title>
-    <style>
-        body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background-color: #0f172a;
-            color: #f8fafc;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 1rem;
-        }
-        .card {
-            background-color: #1e293b;
-            padding: 2.5rem;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-            max-width: 500px;
-            width: 100%;
-            text-align: center;
-            border: 1px solid #334155;
-        }
-        h1 {
-            color: #38bdf8;
-            margin-bottom: 0.5rem;
-        }
-        p {
-            color: #94a3b8;
-            line-height: 1.6;
-            margin-bottom: 2rem;
-        }
-        .links {
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-        .btn {
-            display: block;
-            padding: 0.75rem 1rem;
-            background-color: #334155;
-            color: #f8fafc;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: 500;
-            transition: background-color 0.2s;
-        }
-        .btn:hover {
-            background-color: #38bdf8;
-            color: #0f172a;
-        }
-    </style>
+    <!-- Vinculando o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <h1>Olá, eu sou o Matheus! 👋</h1>
-        <p>Estudante de Ciência da Computação. Apaixonado por tecnologia, desenvolvimento de software e resolução de problemas.</p>
-        
-        <div class="links">
-            <a href="https://github.com/imatheusks" target="_blank" class="btn">GitHub</a>
-            <a href="https://linkedin.com/in/SEU-LINKEDIN" target="_blank" class="btn">LinkedIn</a>
-            <a href="mailto:matheuz.6661@gmail.com" class="btn">Contato por E-mail</a>
+    <div class="container">
+        <!-- Cartão de Apresentação -->
+        <div class="card">
+            <h1>Olá, eu sou o Matheus! 👋</h1>
+            <p>Estudante de Ciência da Computação. Apaixonado por tecnologia, desenvolvimento de software e resolução de problemas.</p>
+            
+            <div class="links">
+                <a href="https://github.com/imatheusks" target="_blank" class="btn">GitHub</a>
+                <a href="https://linkedin.com/in/SEU-LINKEDIN" target="_blank" class="btn">LinkedIn</a>
+                <a href="mailto:seu-email@gmail.com" class="btn">E-mail</a>
+            </div>
+        </div>
+
+        <!-- Cartão de Projetos -->
+        <div class="card">
+            <h2>🚀 Projetos Em Destaque</h2>
+            
+            <div class="project-card">
+                <div class="project-title">Projeto 1: Nome do Seu Projeto</div>
+                <div class="project-desc">Uma breve descrição sobre o que este programa ou algoritmo faz e qual problema ele resolve.</div>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Estrutura de Dados</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title">Projeto 2: Nome do Segundo Projeto</div>
+                <div class="project-desc">Outro projeto legal que você desenvolveu durante seus estudos ou por conta própria.</div>
+                <div class="tags">
+                    <span class="tag">C++</span>
+                    <span class="tag">Redes</span>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- Vinculando o arquivo JavaScript externo -->
+    <script src="script.js"></script>
 </body>
 </html>
